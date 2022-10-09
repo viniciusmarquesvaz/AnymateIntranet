@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+.background-wrapper {
+  background: url('https://64.media.tumblr.com/0687be0bba5524e9513588d92210253f/8828fd5d54b3a2b3-32/s640x960/4bd060e395c8e9c0d5c5ef32260fe92433b4cdef.gifv');
+    color: #FFF;
+  }
+  
+  .skewed-bg {
+    background:url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/eeee33110479203.5fee1f7411965.gif');
+    padding: 200px 0;
+    transform: skew(0deg, -10deg);
+    margin-top: -00px;
+    border-bottom-left-radius:5% ;
+    border-bottom-right-radius:1% ;
+  }
+  .skewed-bg .content {
+    transform: skew(0deg, 10deg);
+    text-align: center;
+  }
+  .skewed-bg .content .title {
+    padding-top: 100px;
+    font-family: 'Press Start 2P', cursive;
+    color:rgb(191, 222, 226);
+    font-weight: bold;
+    font-size: 2.5rem;
+
+  }
+
+  .skewed-bg .content .text {
+    width: 60%;
+    margin: 15px auto;
+    color: rgb(218, 242, 245);
+    font-family: 'Rubik', sans-serif;
+    font-style: italic;
+  }
+  
+  .footer {
+    padding-top: 300px;
+  }
+  .footer .credits {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: italic;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  .footer .credits .link {
+    font-weight: bold;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
