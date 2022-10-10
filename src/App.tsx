@@ -1,11 +1,14 @@
 import './styles/global.css'
 import React from 'react';
-import { MainFirstPage } from './components/Pages/MainFirstPage';
+import { BrowserRouter } from 'react-router-dom';
+import IntranetRoutes from './pages/Routes';
 
 function App()  {
-  return <div className="App">
-    <MainFirstPage/>
-  </div>;
+  return(
+    <BrowserRouter>
+    <IntranetRoutes/>
+    </BrowserRouter>
+  )
 }
 
 export default App;
