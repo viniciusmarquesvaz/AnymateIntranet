@@ -6,10 +6,9 @@ import React from 'react'
     return(
     
      <Routes>
-
         <Route path= "/" element={<MainFirstPage/>} />
-        <Route path= "/oi" element={<p>oii</p>} />
-    
+        <Route path= "/home" element={<p>oii</p>} />
+  
     </Routes>
     
    

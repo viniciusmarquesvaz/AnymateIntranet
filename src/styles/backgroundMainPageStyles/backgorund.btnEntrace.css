@@ -1,63 +1,46 @@
-@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
-
-
-
-.containerBtnEntrace {
-  top: 120%;
-  left: 50%;
-  position: absolute;
-  transform: translate(-50%,-50%);
-}
-
-.btn {
-  font-size: 1.2em;
-  font-family: 'Press Start 2P', cursive;
-  width: 200px;
-  padding: 1.0rem;
+.bt1 {
+  border-radius: 20px;
+  background-color: #a01d4b;
+  border-style: double;
+  color: #fff;
+  border-color: white;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 350px;
   height: 70px;
-  background: url('https://cutewallpaper.org/26/art-wallpaper-gif/cyberpunk-pixel-art-gif-1020x1555-wallpaper-teahubio.gif');
-  border: 0px;
-  position: relative;
-
-   
-}
-
-.btn:hover {
-  transition: 2s;
-  background: linear-gradient(90deg, #164480 70%, #164480 50%), #164480;
-  
+  transition: all 0.2s;
   cursor: pointer;
-	background-color: linear-gradient(90deg, #164480 70%, #164480 70%), #3583ea;
-}
-
-.btn:active {
-
-  box-shadow: 
-    -4px 2px 1px 1px rgb(149, 3, 105),
-    -4px -2px 1px 1px rgb(76, 19, 176),
-    4px 0px 1px 1px lightgray; 
-
-}
-
-.btn::after {
-  color : black;
-  content: '';
-  background: black;
+  margin: 36px;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
+  font-variant: small-caps;
+  font-weight: bolder;
   position: absolute;
-  left: -2.5%;
-  top: 0;
-  width: 105%;
-  height: 100%;
-  z-index: -1;
+  cursor: pointer;
+  transition: 0.5s;
+  top: 12.6rem;
+  left: 18.5rem;
+}
+/*tipografia dos botao abaixo*/
+
+.bt1:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 14px;
+  right: -20px;
+  transition: 0.5s;
 }
 
-.btn::before {
-  content: '';
-  background: black;
+.bt1:hover {
+  padding-right: 24px;
+  padding-left: 8px;
   position: absolute;
-  left: 0;
-  top: -5%;
-  width: 100%;
-  height: 113%;
-  z-index: -1;
+  top: 12.6rem;
+  left: 18.5rem;
+}
+
+.bt1:hover:after {
+  opacity: 1;
+  right: 10px;
 }
