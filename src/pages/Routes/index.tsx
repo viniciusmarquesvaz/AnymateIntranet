@@ -8,8 +8,7 @@ import React from 'react'
      <Routes>
         <Route path= "/" element={<MainFirstPage/>} />
         <Route path= "/home" element={<p>oii</p>} />
-  
-    </Routes>
+      </Routes>
     
    
 );

@@ -4,8 +4,14 @@ import React from 'react'
 
 export const BtnEntrace   = () =>  {
   return (
-    <div className="containerBtnEntrace">
-  <a className="btn">Entrace</a>
-</div>
+  
+    <div className='btnContainer'>
+      <a className="bt1"><span className="txt1">Resale Crosford</span></a>
+    </div>
+
+  
+
+
+
   )
 }

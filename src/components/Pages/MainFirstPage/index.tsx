@@ -1,5 +1,6 @@
 import React from 'react'
 import '../../../styles/backgroundMainPageStyles/background.layout.css'
+import { BtnEntrace } from '../../Atoms/btnMainEntrace'
 import Typed from 'react-typed'
 
 
@@ -19,15 +20,14 @@ export const MainFirstPage= ()   => {
      <p>
      <Typed
       strings={[
-        "Click the button to enter the environment",
-        ""
+        "Choose which of the two environments you want to enter ✏️"
       ]}
-      typeSpeed={50}
-      backSpeed={50}
-      startDelay={50}
-      loop
+      typeSpeed={80}
+      backDelay={50}
+      loop={false}
     /> 
      </p>
+     <BtnEntrace />
     </div><div className="area">
         <ul className="circles">
           <li></li>
