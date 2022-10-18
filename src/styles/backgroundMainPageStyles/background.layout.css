@@ -7,6 +7,7 @@
 
 body{
     font-family: 'Exo', sans-serif;
+    overflow: hidden;
 }
 
 
@@ -32,8 +33,8 @@ body{
 }
 
 .area{
-    background: #4ec856;  
-    background: -webkit-linear-gradient(to left, #8ffbaa, #5ac84e);  
+    background: linear-gradient(90deg,#5f296d 1.94%,#33296d 102.78%);  
+    background: -webkit-linear-gradient(to left, #5f296d, #33296d);  
     width: 100%;
     height:100vh;
     
@@ -136,6 +137,8 @@ body{
     animation-delay: 0s;
     animation-duration: 11s;
 }
+
+
 
 
 

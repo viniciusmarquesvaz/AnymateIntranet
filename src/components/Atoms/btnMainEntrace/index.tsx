@@ -6,7 +6,7 @@ export const BtnEntrace   = () =>  {
   return (
   
     <div className='btnContainer'>
-      <a className="bt1"><span className="txt1">Resale Crosford</span></a>
+      <a className="bt1"><span className="txt1">Company 1</span></a>
     </div>
 
   

@@ -1,6 +1,8 @@
 import React from 'react'
 import '../../../styles/backgroundMainPageStyles/background.layout.css'
 import { BtnEntrace } from '../../Atoms/btnMainEntrace'
+import { BtnEntrace2 } from '../../Atoms/btnMainEntrace2'
+import { JobGifHomePage } from '../../Atoms/gifAnimatedJob'
 import Typed from 'react-typed'
 
 
@@ -25,9 +27,13 @@ export const MainFirstPage= ()   => {
       typeSpeed={80}
       backDelay={50}
       loop={false}
-    /> 
+      /> 
      </p>
      <BtnEntrace />
+     <BtnEntrace2 />
+     <JobGifHomePage/>
+
+
     </div><div className="area">
         <ul className="circles">
           <li></li>
@@ -41,6 +47,7 @@ export const MainFirstPage= ()   => {
           <li></li>
           <li></li>
         </ul>
-      </div></>
+      </div>
+      </>
   )
 }
