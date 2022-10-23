@@ -1,4 +1,4 @@
-import { Routes,Route } from "react-router-dom"
+import { Routes,Route} from "react-router-dom"
 import { MainFirstPage } from "../../components/Pages/MainFirstPage";
 import React from 'react'
 
@@ -6,6 +6,7 @@ import React from 'react'
     return(
     
      <Routes>
+      
         <Route path= "/" element={<MainFirstPage/>} />
         <Route path= "/intranet/ResaleCrosford" element={<p>oii</p>} />
       </Routes>

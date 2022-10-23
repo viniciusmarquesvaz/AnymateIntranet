@@ -4,6 +4,7 @@ import { BtnEntrace } from '../../Atoms/btnMainEntrace'
 import { BtnEntrace2 } from '../../Atoms/btnMainEntrace2'
 import { JobGifHomePage } from '../../Atoms/gifAnimatedJob'
 import Typed from 'react-typed'
+import { WavyLink } from 'react-wavy-transitions'
 
 
 export const MainFirstPage= ()   => {
@@ -29,8 +30,14 @@ export const MainFirstPage= ()   => {
       loop={false}
       /> 
      </p>
-     <BtnEntrace />
+     <WavyLink  to="/company1" color="#8a82ee">
+     <BtnEntrace />       
+      </WavyLink>
+      
+      <WavyLink  to="/company2" color="#8a82ee">
      <BtnEntrace2 />
+     </WavyLink>
+
      <JobGifHomePage/>
 
 
