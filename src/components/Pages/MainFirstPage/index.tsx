@@ -30,11 +30,11 @@ export const MainFirstPage= ()   => {
       loop={false}
       /> 
      </p>
-     <WavyLink  to="/company1" color="#8a82ee">
+     <WavyLink  direction="up" to="/company1" color="#534381">
      <BtnEntrace />       
       </WavyLink>
       
-      <WavyLink  to="/company2" color="#8a82ee">
+      <WavyLink  to="/company2" color="#534381">
      <BtnEntrace2 />
      </WavyLink>
 
