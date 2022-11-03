@@ -1,0 +1,123 @@
+*{
+  
+}
+
+.header{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+    width: 100%;
+    height: 100vh;
+    background: #e2e9f7;
+    
+
+}
+.side-nav{
+
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+    width: 250px;
+    height: 100%;
+    background: linear-gradient(90deg,#5f296d 1.94%,#0d74f5 102.78%);
+    position: fixed;
+    top:0;
+    left:0;
+    padding: 50px 30px;
+}
+.logo {
+    display: block;
+    margin-bottom: 130px;
+}
+.logo-img{
+    width: 150px;
+
+}
+.nav-links{
+    list-style: none;
+    position: relative;
+}
+.nav-links li{
+    padding: 10px 0;
+}
+.nav-links li a{
+    font-family: "Poppins",sans-serif;
+    color: white;
+    text-decoration: none;
+    padding: 10px 14px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li a i{
+    font-size: 22px;
+    margin-right: 20px ;
+}
+.active {
+    background: #e2e9f7;
+    width: 100%;
+    position: absolute;
+    padding: 0  110px  ;
+    height: 47px;
+    left: 0;
+    z-index: -1;
+    top: -2.6%;
+    border-radius: 6px;
+     /* box-shadow: 0 5px 10px rgba(90, 0, 102, 0.4);  */
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    display: none;
+    transition: top 0.5s;
+
+}
+.nav-links li:hover a{
+    color:#5f296d ;
+    transition: 0.3s;
+}
+.nav-links li:hover ~ .active{
+    display: block;
+}
+
+.nav-links li:nth-child(1):hover ~ .active{
+    top: 2.9%;
+}
+.nav-links li:nth-child(2):hover ~ .active{
+    top: 19.2%;
+}
+.nav-links li:nth-child(3):hover ~ .active{
+    top: 35.8%;
+}
+.nav-links li:nth-child(4):hover ~ .active{
+    top: 52.4%;
+}
+.nav-links li:nth-child(5):hover ~ .active{
+    top: 69%;
+}
+.nav-links li:nth-child(6):hover ~ .active{
+    top: 85.6%;
+}
+.logo-icon {
+    display: none;
+    width: 45px;
+}
+
+@media only screen and (max-width: 600px){
+   .side-nav{
+    width: 110px;
+   } 
+   .logo-icon{
+    display: block;
+   }
+   .logo-img{
+    display: none;
+   }
+   .nav-links li a p{
+    display: none;
+   }
+   .nav-links li a i{
+    margin-right: 0;
+   }
+   .nav-links li a{
+    justify-content: center;
+   }
+}
